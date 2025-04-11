@@ -124,8 +124,8 @@ def process_question(query):
         payload = {
             "inputs": f"<|system|>You are a helpful financial assistant.<|user|>{query}<|assistant|>",
             "parameters": {
-                "max_new_tokens": 100,
-                "temperature": 0.7,
+                "max_new_tokens": 1024,
+                "temperature": 0.9,
                 "return_full_text": False
             }
         }

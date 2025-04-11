@@ -1,0 +1,25 @@
+# Ignore environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE and editor files (like VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore other files you don't want to push (like build directories)
+*.sqlite3
+*.db
